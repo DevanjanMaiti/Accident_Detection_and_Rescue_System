@@ -6,7 +6,8 @@ boolean flag=true;
 int j;
 int timesTosend=1;
 int count;
-char phone_no[]="07406849484";
+char phone_no[]="09663912765";
+char vehicle_reg_no[]="KA 19 P 8488";
 float lat;
 float lon;
 char payload[100];
@@ -92,9 +93,12 @@ void trigger_alarm()
     Serial.println("\"");
     while(Serial.read()!='>');
     {
+        Serial.print(vehicle_reg_no);
+        Serial.print(" has met with an accident at the location: ");
         Serial.print(lat);
         Serial.print(",");
         Serial.println(lon);
+        Serial.print(" The nearest ambulance service has already been alerted by the ADRS.");
         delay(500);
         Serial.write(0x1A);
         Serial.write(0x0D);
