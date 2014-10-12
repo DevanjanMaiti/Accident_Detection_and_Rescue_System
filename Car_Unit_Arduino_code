@@ -1,8 +1,8 @@
 /***********************************************************************************************
  *
- * File Name: Smart_insulin_pen_with_date_time_alarm.ino
+ * File Name: Accident_Detection_&_Rescue_System_(ADRS)_Vehicle_Unit.ino
  * Author: Devanjan Maiti (devanjan008@gmail.com)
- * Created: Sep/18/2014
+ * Created: Oct/5/2014
  *
  *
  * Copyright (c) <2014>, <Devanjan Maiti>
@@ -50,6 +50,7 @@ ADJ. GND: GPS & GSM MODULE GND
 A0: ACCELEROMETER-1 OUTPUT
 
 -----------------------------------------------------------------------------*/
+
 int a;
 unsigned int i;
 boolean flag=true;
