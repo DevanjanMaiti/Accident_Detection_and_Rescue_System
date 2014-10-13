@@ -59,7 +59,7 @@ boolean flag=true;
 int j;
 int timesTosend=1;
 int count;
-char phone_no[]="09663912765";
+char phone_no[]="07406849484";
 char vehicle_reg_no[]="KA 19 P 8488";
 float lat;
 float lon;
